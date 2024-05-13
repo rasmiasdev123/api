@@ -11,6 +11,6 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    result = fetch_fno()
-    print(result)
+    # result = fetch_fno()
+    # print(result)
     return {"result": "this is for testing"}
