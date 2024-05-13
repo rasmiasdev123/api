@@ -11,5 +11,5 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    stocks_list = fetch_fno()
-    return {"fno_list": stocks_list}
+    
+    return {"result": "this is for testing"}
